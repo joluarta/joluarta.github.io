@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  background-color: black;
+  margin: 5px;
+}
+
+.one {
+  height: 100px;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+.two {
+  height: 500px;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+.three {
+  height: 200px;
+  background-color: black;
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  color: rgb(106, 107, 109);
+}
+
+.four {
+  height: 100px;
+  background-color: rgb(106, 107, 109);
+  text-align: center;
+  color: white;
+}
+
+.five {
+  height: 250px;
+  background-color: rgb(106, 107, 109);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: white;
+}
+
+.six {
+  height: 200px;
+  width: auto;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 100px;
+}
+
+.footer {
+  height: 90px;
+  background-color: rgb(106, 107, 109);
+  color: white;
+  text-align: center;
+}
+
+
+.right {
+  width: 40%;
+  background-color: black;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.left {
+  width: 60%;
+  background-color: black;
+  text-align: left;
+  margin: 50px;
+}
+
+.foto1 {
+  width: 33%;
+  height: 40%;
+}
+
+.foto2 {
+  width: 33%;
+  height: 40%;
+}
+
+.foto3 {
+  width: 33%;
+  height: 40%;
+}
+
+.iconosFlex {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.ul {
+  list-style-type: none;
+  margin: 5;
+  padding: 5;
+}
